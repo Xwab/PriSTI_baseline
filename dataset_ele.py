@@ -60,7 +60,7 @@ class ELE_Dataset(Dataset):    #默认缺失率为百分之25，为随机缺失
         #test_data = np.array(np.split(test_data, 6, 0))
         #valid_data = np.array(np.split(valid_data, 9, 0))
         train_data1 = np.load('./data/electricity/16/ele_train1.npy')
-        train_data2 = np.load('./data/electricity/16/ele_train3.npy')
+        train_data2 = np.load('./data/electricity/16/ele_train2.npy')
         train_data3 = np.load('./data/electricity/16/ele_train3.npy')
         train_data4 = np.load('./data/electricity/16/ele_train4.npy')
         train_data5 = np.load('./data/electricity/16/ele_train5.npy')
